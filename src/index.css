@@ -59,3 +59,19 @@
   padding-right: max(0.5rem, env(safe-area-inset-right));
 }
 
+@keyframes progress-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-progress-slide {
+  animation: progress-slide 1.2s infinite ease-in-out;
+}
+
