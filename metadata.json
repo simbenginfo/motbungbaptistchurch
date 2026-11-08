@@ -1,0 +1,10 @@
+{
+  "name": "AppsScript Mobile Portal",
+  "description": "Mobile, tablet, and cross-browser frontend portal for Google Apps Script and Google Sheets database applications with responsive framing, touch optimization, and iOS/Android compatibility.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
